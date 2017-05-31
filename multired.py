@@ -507,6 +507,7 @@ class multiplex_red:
             else:
                 self.reduce()
         dendrogram(self.Z, no_plot=False)
+        print(self.Z)
         matplotlib.pyplot.draw()
         matplotlib.pyplot.show()
 
